@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "b50a2e88-7a2a-4364-a969-c57884b11bbe",
+		"name": "StudentAccountsAcademicYearPaymentPeriods",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25479700"
+	},
+	"item": [
+		{
+			"name": "StudentAcademicYearPaymentPeriods",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Dufo4081@!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetBankAccountsByCampusIdAndBankAccountId",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{domain}}/ds/campusnexus/BankAccounts/CampusNexus.GetBankAccountNames(campusId={{campusId}},bankAccountId={{bankAccountId}})",
+					"protocol": "https",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"BankAccounts",
+						"CampusNexus.GetBankAccountNames(campusId={{campusId}},bankAccountId={{bankAccountId}})"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "username",
+			"value": "gkumar@700031cm.onmicrosoft.com",
+			"type": "string"
+		},
+		{
+			"key": "password",
+			"value": "GK$AI2024",
+			"type": "string"
+		},
+		{
+			"key": "domain",
+			"value": "sisclientweb-700031.campusnexus.cloud",
+			"type": "string"
+		},
+		{
+			"key": "campusId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "bankAccountId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "active",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "Id",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "inActive",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "campusIds",
+			"value": "1",
+			"type": "string"
+		}
+	]
+}
