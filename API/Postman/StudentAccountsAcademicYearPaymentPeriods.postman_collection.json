@@ -14,7 +14,7 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "Dufo4081@!",
+							"value": "{{password}}!",
 							"type": "string"
 						},
 						{
@@ -92,12 +92,12 @@
 	"variable": [
 		{
 			"key": "username",
-			"value": "gkumar@700031cm.onmicrosoft.com",
+			"value": "$email",
 			"type": "string"
 		},
 		{
 			"key": "password",
-			"value": "GK$AI2024",
+			"value": "$pw",
 			"type": "string"
 		},
 		{
