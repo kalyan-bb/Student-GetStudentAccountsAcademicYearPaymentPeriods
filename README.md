@@ -14,6 +14,9 @@ Visit the Postman website.
 Download the version suitable for your platform.
 Run the installer.
 
+## Usage
+Please follow the instructions given in [importing data](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/) to import the API collection into postman.
+
 ## Environment Variables
 You will need to set the following environment variables:
 
